@@ -1,0 +1,69 @@
+
+* {
+	border: 1px solid;
+}
+
+#container {
+  width: 100%;
+  margin: auto;
+}
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: 'Roboto', sans-serif;;
+}
+header {
+	height: 200px;
+	background-color: #125688;
+	height: 300px;
+}
+.Top {
+	float: right;
+	margin-top: 100px;
+}
+button {
+	font-family: 'Roboto', sans-serif;
+	display: inline;
+    background-color: #125688; 
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.iPhone {
+	display: inline;
+	position: relative;
+	width: 30%;
+	float: left;
+	left: 100px;
+	top: 10px;
+	bottom: 20px;
+}
+.Capture {
+	font-family: 'Roboto', sans-serif;
+	float: right;
+	display: inline;
+	position: absolute;
+	top: 250px;
+	right: 80px;
+	width: 40%;
+}
+
+footer{
+
+	clear: both;
+}
+li {
+	display: inline;
+}
+
+/*------mobile-------*/
+/*---------Desktop---------*/
+/*@media (min-width: 1024px) {
+
+}
+
+/*background: -webkit-radial-gradient(circle, #125688 25%, #4c68d7 75%)
