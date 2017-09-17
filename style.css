@@ -1,7 +1,8 @@
 
-* {
-	border: 1px solid;
-}
+
+/*---------Desktop---------*/
+
+@media (min-width: 600px) {
 
 #container {
   width: 100%;
@@ -15,17 +16,18 @@ body {
      font-family: 'Roboto', sans-serif;
 }
 header {
-	height: 200px;
 	background-color: #125688;
-	height: 300px;
 	background: linear-gradient(to top left, #0f4871, #125688, #1872b5);
+	min-height: 300px;
 }
 .Top {
 	float: right;
 	margin-top: 130px;
-	margin-right: 120px;
+	margin-right: 80px;
+	margin-left: 725px;
 	width: 40%;
 	height: 80px;
+	padding-right: 0px;
 }
 h2 {
 	font-family: 'Montserrat', sans-serif;
@@ -48,6 +50,7 @@ button {
     margin-top: 20px;
     margin-left: 20px;
     border-color: #0f4871;
+    border-radius: 3px;
 }
 .content {
 	top: 250px;
@@ -81,25 +84,114 @@ button {
 	/*box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.4);*/
 
 }
+.androidBadge {
+	margin-right: 30px;
+}
 
 footer{
-	margin-top: 50px;
 	clear: both;
 	text-align: center;
 	text-decoration: none;
+	margin-bottom: 40px;
+}
+ul {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	display: inline-flex;
+	color: #125688;
+	text-decoration: none;
+	list-style-type: none;
 }
 li {
-	font-family: 'Montserrat', sans-serif;
-
-	text-transform: uppercase;
-	display: inline;
-	color: #125688;
+	padding-right: 5px;
+	padding-left: 5px;
+}
 }
 
 /*------mobile-------*/
-/*---------Desktop---------*/
-/*@media (min-width: 1024px) {
 
+@media (max-width: 599px) {
+#container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+body {
+     color: #000;
+     font-size: 12px;
+     font-family: 'Roboto', sans-serif;
+}
+header {
+	min-height: 200px;
+	width: 100%;
+	background-color: #125688;
+	background: linear-gradient(to top left, #0f4871, #125688, #1872b5);
+}
+.Top {
+	padding-top: 80px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	color: #125688;
+	background-color: white;
+}
+button {
+	font-family: 'Montserrat', sans-serif;
+	display: inline-block;
+    background-color: #125688; 
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 13px;
+    border-color: #0f4871;
+    border-radius: 3px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+.content {
+	background-color: white;
+}
+.Capture {
+	font-family: 'Montserrat', sans-serif;
+	width: 80%;
+	background-color: white;
+	border-radius: 5px;
+	color: #1d2222;
+	top: 20px;
+	/*box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	/*box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.4);*/
+}
+.logo {
+	height: auto;
+	width: 250px;
+}
+.iPhone {
+	display: none;
+}
+.androidBadge {
+	display: none;
+}
+.iphoneBadge {
+	display: none;
+}
+
+footer{
+	text-align: center;
+	text-decoration: none;
+	margin-bottom: 40px;
+	width: 400px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+li {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	display: inline-flex;
+	color: #125688;
+	padding-left: 0px;
+}
 }
 
 /*background: -webkit-radial-gradient(circle, #125688 25%, #4c68d7 75%)
