@@ -87,6 +87,9 @@ button {
 	margin-bottom: 70px;
 
 }
+.iPhone2 {
+	display: none;
+}
 .Capture {
 	font-family: 'Open Sans', sans-serif;
 	float: right;
@@ -202,8 +205,6 @@ button {
 	color: #1d2222;
 	top: 20px;
 	padding-left: 20px;
-	/*box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-	/*box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.4);*/
 }
 .logo {
 	height: auto;
@@ -211,6 +212,15 @@ button {
 }
 .iPhone {
 	display: none;
+}
+.iPhone2 {
+	display: inline;
+	position: relative;
+	width: 30%;
+	float: left;
+	left: 100px;
+	top: 10px;
+	margin-bottom: 70px;
 }
 .androidBadge {
 	display: none;
@@ -223,11 +233,12 @@ footer{
 	text-align: center;
 	text-decoration: none;
 	margin-bottom: 40px;
+	float: left;
 }
 ul {
 	font-family: 'Open Sans', sans-serif;
 	text-transform: uppercase;
-	
+	word-wrap: break-word;
 	color: #125688;
 	text-decoration: none;
 	list-style-type: none;
