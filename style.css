@@ -55,14 +55,19 @@ button {
     position: absolute;
     margin-top: 20px;
     margin-left: 5px;
-    border-color: #0f4871;
-    border-radius: 3px;
+    border: 1px #D3D3D3;
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 0px 1px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow: 0px 1px 5px 0px rgba(50, 50, 50, 0.75);
     width: 130px;
     height: 50px;
     padding-bottom: 20px;
 }
 .ButtonText {
 	float: right;
+}
+.Home {
+	float: left;
 
 }
 
@@ -147,7 +152,7 @@ body {
      font-family: 'Roboto', sans-serif;
 }
 header {
-	min-height: 200px;
+	min-height: 250px;
 	width: 100%;
 	background-color: #125688;
 	background: linear-gradient(to top left, #0f4871, #125688, #1872b5);
@@ -155,7 +160,7 @@ header {
 .Top {
 	padding-top: 80px;
 	padding-right: 10px;
-	padding-left: 10px;
+	padding-left: 40px;
 }
 h2 {
 	font-family: 'Open Sans', sans-serif;
@@ -164,16 +169,27 @@ h2 {
 }
 button {
 	font-family: 'Open Sans', sans-serif;
-	display: inline-block;
     background-color: #125688; 
     color: white;
     padding: 15px 32px;
-    text-align: center;
-    font-size: 13px;
-    border-color: #0f4871;
-    border-radius: 3px;
-    margin-left: 90px;
-    margin-right: 90px;
+    font-size: 8px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 80px;
+    margin-right: 25px;
+    border: 1px #D3D3D3;
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 0px 1px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow: 0px 1px 5px 0px rgba(50, 50, 50, 0.75);
+    width: 130px;
+    height: 50px;
+}
+.ButtonText {
+	float: right;
+}
+.Home {
+	float: left;
+
 }
 .content {
 	background-color: white;
@@ -185,6 +201,7 @@ button {
 	border-radius: 5px;
 	color: #1d2222;
 	top: 20px;
+	padding-left: 20px;
 	/*box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 	/*box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.4);*/
 }
@@ -201,15 +218,38 @@ button {
 .iphoneBadge {
 	display: none;
 }
-
 footer{
+	clear: both;
+	text-align: center;
+	text-decoration: none;
+	margin-bottom: 40px;
+}
+ul {
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	
+	color: #125688;
+	text-decoration: none;
+	list-style-type: none;
+}
+li {
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+.copy {
+	color: #ceced2;
+}
+/*footer{
+	float: left;
 	text-align: center;
 	text-decoration: none;
 	margin-bottom: 40px;
 	width: 400px;
-	margin-left: 10px;
-	margin-right: 10px;
-}
+	margin-left: -50px;
+	margin-right: 10px
+	font-size: 4px;
+
 li {
 	font-family: 'Open Sans', sans-serif;
 	text-transform: uppercase;
@@ -219,7 +259,7 @@ li {
 }
 .copy {
 	color: #B9B9BA;
-}
+}*/
 }
 
 /*background: -webkit-radial-gradient(circle, #125688 25%, #4c68d7 75%)
